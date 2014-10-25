@@ -6,7 +6,7 @@ Given a source image &mdash; of the types: <small>GIF</small>, <small>JPEG</smal
 
 Given a source directory, **srcset_factory** will process each image file (<small>GIF</small>, <small>JPEG</small> or <small>PNG</small>) that it finds within.
 
-It will optionally group them in sub-directories by size.
+It will optionally group the images it generates in sub-directories, by size.
 
 The script handles translucency correctly with <small>GIF</small> and <small>PNG</small> images.
 
