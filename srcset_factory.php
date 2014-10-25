@@ -159,6 +159,7 @@ function create_image_sets($filename = NULL) {
           $destination = $write_directory . DIRECTORY_SEPARATOR . $write_filename . '.';
           $destination .= $extension;
           if ( !copy($filename, $destination) ) return FALSE;
+          $template_properties[] = array( 'P' => $relative_path, 'W' => $dimensions[0], 'H' => $dimensions[1] );
         }
       } else {
         return FALSE;
