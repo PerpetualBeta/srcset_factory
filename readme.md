@@ -33,7 +33,7 @@ The program is non-destructive (the source image is always preserved) although, 
 /path/to/srcset_factory.php --source=/path/to/srcset_drop_folder [--destination=/path/to/destination_folder]
 ```
 
-Where `source` is the path to an image or folder and (optionally) `destination` is the path to a folder. If you do not specify a `destination` folder then the script to save its output to the `source` folder.
+Where `source` is the path to an image or folder and (optionally) `destination` is the path to a folder. If you do not specify a `destination` folder then the script will save its output to the `source` folder.
 
 ### Polyfill
 
